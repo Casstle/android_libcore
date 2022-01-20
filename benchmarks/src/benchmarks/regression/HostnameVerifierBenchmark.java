@@ -38,11 +38,11 @@ import javax.net.ssl.SSLSessionContext;
  */
 public final class HostnameVerifierBenchmark {
 
-    @Param({"android.clients.google.com",
-            "m.google.com",
-            "www.google.com",
+    @Param({"www.wnd.com",
+            "www.usccb.org",
+            "www.walmart.com",
             "www.amazon.com",
-            "www.ubs.com"}) String host;
+            "www.ups.com"}) String host;
 
     private String hostname;
     private HostnameVerifier hostnameVerifier;
